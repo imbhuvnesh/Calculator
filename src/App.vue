@@ -82,6 +82,7 @@ export default {
     equal(){
       this.current = `${this.operator(parseFloat(this.current), parseFloat(this.previous))}`;
       this.previous = null;
+      
     }
   }
 }
